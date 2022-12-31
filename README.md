@@ -5,18 +5,24 @@
 My CS50x final project, an e-commerce store for secondhand products.
 
 Initialise Virtual environment
-	source server/venv/bin/activate
+
+    cd server
+    source venv/bin/activate
 
 Install requirements
-	cd server/
-	pip install -r requirements.txt
+
+    cd server
+    pip install -r requirements.txt
 
 Start Api
-	flask run
+
+    flask run
 
 Install front end dependencies
-	cd client/
-	npm run install
+
+    cd client
+    npm run install
 
 Initialise app
-	npm run dev
+
+    npm run dev
